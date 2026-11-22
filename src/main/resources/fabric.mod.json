@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "lavadisconnect",
+  "version": "1.0.0",
+  "name": "Lava Disconnect",
+  "description": "Automatycznie rozłącza z gry, gdy wpadniesz do lavy.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.lavadisconnect.LavaDisconnectClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "fabric-api": "*"
+  }
+}
